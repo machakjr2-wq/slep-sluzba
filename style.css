@@ -1,0 +1,370 @@
+body {* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+}
+
+/* NAVIGACIJA */
+nav {
+    background-color: #1e293b;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('slepa.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* DUGME */
+.btn {
+    background-color: #f97316;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #ea580c;
+}
+
+/* USLUGE */
+.usluge {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.usluge h2 {
+    margin-bottom: 30px;
+}
+
+.usluge-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.usluga {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+/* HEADER FIXIRAN GORE */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1e293b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    z-index: 1000;
+}
+
+/* NAVIGACIJA */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* DUGME GORE DESNO */
+.pozovi {
+    background-color: #f97316;
+}
+
+/* DA SE SADRŽAJ NE ZALEPI ISPOD HEADERA */
+body {
+    padding-top: 100px;
+.zasto-mi {
+    background-color: #1e293b;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.zasto-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.zasto-lista div {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    font-weight: bold;
+}.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo span {
+    color: #f97316;
+}
+}
+.call-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f97316;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.call-fixed:hover {
+    background-color: #ea580c;
+}.hero p {
+        font-size: 16px;
+    }
+
+    .usluge-lista,
+    .zasto-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .usluga,
+    .zasto-lista div {
+        width: 90%;
+    }
+
+    .call-fixed {
+        right: 10px;
+        bottom: 10px;
+        padding: 12px 16px;
+    }
+.mapa {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mapa-container {
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}.viber-fixed {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.viber-fixed:hover {
+    background-color: #1ebe5d;
+}
+h1, h2, h3 {
+    letter-spacing: -0.5px;
+}
+
+section {
+    margin-bottom: 20px;
+}.usluga {
+    transition: 0.3s;
+}
+
+.usluga:hover {
+    transform: translateY(-5px);
+}
+
+.zasto-lista div {
+    transition: 0.3s;
+}
+
+.zasto-lista div:hover {
+    transform: scale(1.05);
+}.hero h1 {
+    font-weight: 700;
+}
+
+.hero p {
+    opacity: 0.9;
+}.call-fixed {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}
+#kontakt-sekcija {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+}
+.btn, .call-fixed, .viber-fixed {
+    transition: all 0.2s ease;
+}
+
+.btn:hover, .call-fixed:hover, .viber-fixed:hover {
+    transform: scale(1.05);
+}
+
+.btn:active, .call-fixed:active, .viber-fixed:active {
+    transform: scale(0.95);
+}.zasto-mi {
+    background: linear-gradient(to right, #1e293b, #334155);
+    color: rgba(78, 76, 76, 0.281);
+    padding: 50px 20px;
+    text-align: center;
+}
+.mapa-container {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.recenzije {
+    background-color: #f1f5f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.recenzije-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.recenzija {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-style: italic;
+}
+
+.recenzija h4 {
+    margin-top: 15px;
+    font-style: normal;
+    color: #f97316;
+}
+.galerija {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.slike {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slike img {
+    width: 300px;
+    border-radius: 10px;
+}
+.iskustvo {
+    background-color: #0f172a;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.iskustvo h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.iskustvo-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.iskustvo-box {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+.iskustvo-box:hover {
+    transform: translateY(-5px);
+}
+
+.iskustvo-box h3 {
+    color: #f97316;
+    margin-bottom: 10px;
+}

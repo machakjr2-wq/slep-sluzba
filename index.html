@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Šlep služba Macak</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">🚛 AUTO-TIM <span>022</span></div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Početna</a></li>
+            <li><a href="#">Usluge</a></li>
+            <li><a href="#" onclick="toggleKontakt()">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <a href="tel:+381XXXXXXXXX" class="btn pozovi">Pozovi</a>
+</header>
+
+<a href="https://wa.me/381XXXXXXXXX" class="viber-fixed">
+    💬 Piši na WhatsApp
+</a>
+
+<a href="tel:+381XXXXXXXXX" class="call-fixed">
+    📞 Pozovi odmah
+</a>
+
+<section class="hero">
+    <h1>Šlep služba 00-24</h1>
+    <p>Brza pomoć na putu – Ruma i okolina</p>
+    <a href="tel:+381XXXXXXXXX" class="btn">Pozovi odmah</a>
+</section>
+
+<section class="usluge">
+    <h2>Naše usluge</h2>
+    <div class="usluge-lista">
+        <div class="usluga">Auto servis</div>
+        <div class="usluga">Šlep vozila</div>
+        <div class="usluga">Pomoć na putu</div>
+        <div class="usluga">Prevoz vozila</div>
+    </div>
+</section>
+
+<section class="zasto-mi">
+    <h2>Zašto baš mi?</h2>
+    <div class="zasto-lista">
+        <div>Dolazak za 30 minuta</div>
+        <div>Dostupni 00-24</div>
+        <div>Pokrivamo celu Srbiju</div>
+        <div>Povoljne cene</div>
+    </div>
+</section>
+
+<section class="iskustvo">
+    <h2>Više od 30 godina iskustva u mehanici</h2>
+
+    <div class="iskustvo-lista">
+        <div class="iskustvo-box">
+            <h3>30+ godina iskustva</h3>
+            <p>Dugogodišnje iskustvo u mehanici i radu sa svim vrstama vozila.</p>
+        </div>
+
+        <div class="iskustvo-box">
+            <h3>Stručan kadar</h3>
+            <p>Naš tim čine iskusni majstori sa bogatim znanjem i praksom.</p>
+        </div>
+
+        <div class="iskustvo-box">
+            <h3>Profesionalna usluga</h3>
+            <p>Brza, sigurna i pouzdana pomoć na putu u svakom trenutku.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="recenzije">
+    <h2>Iskustva klijenata</h2>
+
+    <div class="recenzije-lista">
+        <div class="recenzija">
+            <p>"Stigao za 20 minuta, sve profesionalno. Svaka preporuka!"</p>
+            <h4>- Marko</h4>
+        </div>
+
+        <div class="recenzija">
+            <p>"Auto stao na autoputu, rešili problem odmah. Hvala!"</p>
+            <h4>- Nikola</h4>
+        </div>
+
+        <div class="recenzija">
+            <p>"Najbrža šlep služba u okolini, korektne cene."</p>
+            <h4>- Milan</h4>
+        </div>
+    </div>
+</section>
+
+<section class="galerija">
+    <h2>Naše intervencije</h2>
+
+    <div class="slike">
+        <img src="slika1.jpg">
+        <img src="slika2.jpg">
+        <img src="slika3.jpg">
+    </div>
+</section>
+
+<section id="kontakt-sekcija" style="display:none;">
+    <h2>Kontakt</h2>
+    <p>📍 Novi Sad / Ruma</p>
+    <p>📞 +381XXXXXXXXX</p>
+    <p>Dostupni 00-24</p>
+
+    <div class="mapa-container">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.7213904766368!2d19.832038390588256!3d45.01027938902647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475baba4b2d2d287%3A0x42e76792ff10552c!2sAuto%20Tim%20022!5e0!3m2!1ssr!2srs!4v1775839778101!5m2!1ssr!2srs"
+        width="100%"
+        height="300"
+        style="border:0;"
+        loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+<script>
+function toggleKontakt() {
+    var sekcija = document.getElementById("kontakt-sekcija");
+
+    if (sekcija.style.display === "none") {
+        sekcija.style.display = "block";
+        sekcija.scrollIntoView({ behavior: "smooth" });
+    } else {
+        sekcija.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
