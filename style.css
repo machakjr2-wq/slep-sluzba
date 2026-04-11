@@ -368,3 +368,26 @@ section {
     color: #f97316;
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column; /* umesto u liniji */
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .pozovi {
+        margin-top: 10px;
+    }
+}
