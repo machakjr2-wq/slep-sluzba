@@ -16,6 +16,10 @@
 <header class="header">
     <div class="logo">🚛 AUTO-TIM <span>022</span></div>
 
+    <div class="hamburger" onclick="toggleMenu()">
+    ☰
+</div>
+    
     <nav>
         <ul>
             <li><a href="#">Početna</a></li>
@@ -152,6 +156,11 @@ function toggleKontakt() {
     }
 }
 </script>
-
+<script>
+function toggleMenu() {
+    const menu = document.querySelector("nav ul");
+    menu.classList.toggle("active");
+}
+</script>
 </body>
 </html>
