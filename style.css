@@ -263,3 +263,10 @@ nav ul li a {
         width: 100%;
     }
 }
+.galerija h2 {
+    margin-bottom: 20px;
+}
+
+.galerija:nth-child(even) {
+    background-color: #f8fafc;
+}
