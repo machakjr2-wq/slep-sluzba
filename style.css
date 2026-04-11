@@ -270,3 +270,7 @@ nav ul li a {
 .galerija:nth-child(even) {
     background-color: #f8fafc;
 }
+.google {
+    background-color: #4285F4;
+    margin-top: 15px;
+}
