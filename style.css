@@ -227,3 +227,28 @@ nav ul li a {
     max-width: 800px;
     margin: auto;
 }
+.hamburger {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #1e293b;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+}
